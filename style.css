@@ -4,5 +4,52 @@
     box-sizing: border-box;
 }
 
+i, button, li{
+    cursor: pointer;
+    outline: none;
+    list-style-type: none;
+}
+
+body{
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container img{
+    width: 40px;
+}
+.logo-container h1{
+    color: hsla(0, 4%, 15%, 0.904);
+    font-size: 25px;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: hsla(0, 4%, 15%, 0.904);
+    font-weight: 500;
+}
+
+
+
+
 
 
