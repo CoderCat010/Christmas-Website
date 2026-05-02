@@ -49,6 +49,20 @@ body{
 }
 
 
+/* banner part */
+.banner-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.banner-section img{
+    width: 500px;
+}
+
+
+
 
 
 
