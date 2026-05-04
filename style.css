@@ -14,7 +14,7 @@ i, button, li{
 body{
     width: 100%;
     max-width: 1300px;
-    padding: 0 50px;
+    padding: 0 100px;
     margin: 0 auto;
     font-family: "Poppins", sans-serif;
 }
@@ -140,5 +140,49 @@ body{
     font-size: 15px;
     padding: 0 15px;
     margin-top: 10px;
+}
+
+
+/* celebrate section */
+.celebrate-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.celebrate-container img{
+    width: 500px;
+}
+
+.celebrate-title-container{
+    width: 500px;
+}
+
+.celebrate-title-container h1{
+    color: hsl(0, 4%, 15%);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.celebrate-title-container p{
+    color: hsla(0, 4%, 15%, 0.726);
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.celebrate-container button{
+    color: #fff;
+    padding: 17px 33px;
+    border-radius: 50px;
+    background-color: hsl(355, 70%, 54%);
+    font-size: 17px;
+    font-weight: 600;
+    transition: .3s;
+    margin-top: 20px;
+}
+
+.celebrate-container button:hover{
+    background-color: hsl(355, 66%, 50%);
 }
 
