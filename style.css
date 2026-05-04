@@ -55,7 +55,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
     margin-top: 50px;
 }
 
@@ -63,18 +63,22 @@ body{
     width: 500px;
 }
 
-.banner-section h1{
+.title-container{
+    width: 550px;
+}
+
+.title-container h1{
     color: hsl(0, 4%, 15%);
     font-size: 50px;
     font-weight: 600;
 }
 
-.banner-section p{
+.title-container p{
     color: hsla(0, 4%, 15%, 0.904);
     margin-top: 20px;
 }
 
-.banner-section button{
+.title-container button{
     color: #fff;
     padding: 17px 33px;
     border-radius: 50px;
@@ -85,28 +89,56 @@ body{
     margin-top: 20px;
 }
 
-.banner-section button:hover{
+.title-container button:hover{
     background-color: hsl(355, 66%, 50%);
 }
 
 
-/* section: 1 */
-.section2-cards-container{
+/* giving section */
+.giving-section{
+    text-align: center;
+    margin: 80px 0;
+}
+
+/* .giving-section-title{
+    display: flex;
+    justify-content: center;
+} */
+
+.giving-section-title h1{
+    color: hsl(0, 4%, 15%);
+    font-size: 40px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.giving-cards-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
 }
 
-.card-content{
+.giving-cards-container img{
+    width: 130px;
+}
+
+.giving-card{
     text-align: center;
+    width: 200px;
+    margin-top: 50px;
 }
 
-.card-content img{
-    width: 100px;
+.giving-card h3{
+    color: hsl(0, 4%, 15%);
+    font-size: 20px;
+    font-weight: 600;
 }
 
-
-/* giving section */
-
+.giving-card p{
+    color: hsla(0, 4%, 15%, 0.726);
+    font-size: 15px;
+    padding: 0 15px;
+    margin-top: 10px;
+}
 
