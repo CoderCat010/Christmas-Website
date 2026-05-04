@@ -56,7 +56,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .banner-section img{
@@ -90,6 +90,23 @@ body{
 }
 
 
+/* section: 1 */
+.section2-cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
 
+.card-content{
+    text-align: center;
+}
+
+.card-content img{
+    width: 100px;
+}
+
+
+/* giving section */
 
 
