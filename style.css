@@ -17,6 +17,7 @@ body{
     padding: 0 100px;
     margin: 0 auto;
     font-family: "Poppins", sans-serif;
+    background-color: cornsilk;
 }
 
 .navbar{
@@ -148,7 +149,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .celebrate-container img{
@@ -184,5 +185,65 @@ body{
 
 .celebrate-container button:hover{
     background-color: hsl(355, 66%, 50%);
+}
+
+
+/* gift cards section */
+.gifts-section{
+    padding: 80px 0;
+}
+
+.gifts-section h1{
+    color: hsl(0, 4%, 15%);
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.gift-cards-container{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 50px;
+}
+
+.gift-cards-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.gift-card{
+    position: relative;
+    background-color: #fff;
+    width: 200px;
+    padding: 20px;
+    box-shadow: 0 4px 16px hsla(357, 25%, 15%, 0.192);
+    border-radius: 15px;
+}
+
+.gift-card i{
+    color: hsl(355, 70%, 54%);
+    position: absolute;
+    left: 80%;
+}
+
+.gift-card-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gift-card-img img{
+    width: 120px;
+}
+
+.gift-card h4{
+     color: hsl(0, 4%, 15%);
+     font-size: 19px;
+     margin-top: 10px;
+}
+
+.gift-card p{
+     color: hsla(0, 4%, 15%, 0.815);
+    font-size: 16px;
 }
 
