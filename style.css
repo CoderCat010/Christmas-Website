@@ -20,6 +20,9 @@ body{
     background-color: cornsilk;
 }
 
+
+
+/* header section */
 .navbar{
     margin: 20px 0;
     display: flex;
@@ -49,6 +52,7 @@ body{
     color: hsla(0, 4%, 15%, 0.904);
     font-weight: 500;
 }
+
 
 
 /* banner part */
@@ -95,10 +99,11 @@ body{
 }
 
 
+
 /* giving section */
 .giving-section{
     text-align: center;
-    margin: 80px 0;
+    margin: 100px 0;
 }
 
 /* .giving-section-title{
@@ -144,12 +149,13 @@ body{
 }
 
 
+
 /* celebrate section */
 .celebrate-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .celebrate-container img{
@@ -188,9 +194,10 @@ body{
 }
 
 
+
 /* gift cards section */
 .gifts-section{
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 .gifts-section h1{
@@ -234,6 +241,11 @@ body{
 
 .gift-card-img img{
     width: 120px;
+    transition: .3s;
+}
+
+.gift-card-img img:hover{
+    transform: translateY(-.25rem);
 }
 
 .gift-card h4{
@@ -243,7 +255,82 @@ body{
 }
 
 .gift-card p{
-     color: hsla(0, 4%, 15%, 0.815);
+     color: hsla(0, 4%, 15%, 0.726);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+/* gift cards section */
+.new-gifts-section{
+    padding: 0 0 100px 0;
+}
+
+.new-gifts-section h1{
+    color: hsl(0, 4%, 15%);
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.new-gift-cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.new-gift-card{
+    position: relative;
+    background-color: #fff;
+    width: 250px;
+    box-shadow: 0 4px 16px hsla(357, 25%, 15%, 0.192);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.new-gift-card button{
+    position: absolute;
+    background-color: hsl(355, 70%, 54%);
+    padding: 10px;
+    bottom: 0;
+    right: 0;
+    border-radius: 10px 0 15px 0;
+}
+
+.new-gift-card i{
+    color: #fff;
+    font-size: 18px;
+}
+
+.new-gift-card-img{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(355, 70%, 54%);
+    border-radius: 15px 15px 50% 50% ;
+    padding: 20px 0;
+}
+
+.new-gift-card-img img{
+    width: 150px;
+    transition: .3s;
+}
+
+.new-gift-card-img img:hover{
+    transform: translateY(-.25rem);
+}
+
+.new-gift-card h4{
+     color: hsl(0, 4%, 15%);
+     font-size: 20px;
+     margin-top: 30px;
+}
+
+.new-gift-card p{
+     color: hsla(0, 4%, 15%, 0.726);
     font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
 }
 
