@@ -389,3 +389,55 @@ body{
     width: 400px;
     transform: rotate(15deg);
 }
+
+
+
+/* footer section */
+footer{
+    margin: 80px 0 0 0;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo-title h1{
+    font-size: 20px;
+     color: hsl(0, 4%, 15%);
+}
+
+.footer-logo-title img{
+    width: 40px;
+}
+
+.footer-section p{
+    color: hsla(0, 4%, 15%, 0.733);
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.footer-list h3{
+     color: hsl(0, 4%, 15%);
+     margin-bottom: 20px;
+}
+
+.footer-list li{
+     color: hsla(0, 4%, 15%, 0.897);
+}
+
+footer a{
+    text-decoration: none;
+    color: hsla(0, 4%, 15%, 0.589);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
