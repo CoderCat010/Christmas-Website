@@ -197,7 +197,7 @@ body{
 
 /* gift cards section */
 .gifts-section{
-    padding: 100px 0;
+    padding: 50px 0 100px 0;
 }
 
 .gifts-section h1{
@@ -328,9 +328,64 @@ body{
 }
 
 .new-gift-card p{
-     color: hsla(0, 4%, 15%, 0.726);
+    color: hsla(0, 4%, 15%, 0.726);
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 30px;
 }
 
+
+
+/* send wishes section */
+.send-wishes-section{
+    background-color: hsl(355, 70%, 54%);
+    border-radius: 30px;
+    margin: 50px 0;
+}
+
+.wishes-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+    gap: 50px;
+}
+
+.wishes-title-content{
+    width: 300px;
+}
+
+.wishes-title-content h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.wishes-title-content input{
+    width: 300px;
+    padding: 20px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.wishes-title-content input::placeholder{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.wishes-title-content button{
+    background-color: hsl(355, 4%, 15%);
+    font-weight: 600;
+    color: white;
+    font-size: 17px;
+    padding: 20px 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.wishes-container img{
+    width: 400px;
+    transform: rotate(15deg);
+}
