@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-i, button, li{
+i, button, li, a{
     cursor: pointer;
     outline: none;
     list-style-type: none;
@@ -127,6 +127,11 @@ body{
 
 .giving-cards-container img{
     width: 130px;
+    transition: .3s;
+}
+
+.giving-cards-container img:hover{
+    transform: translateY(-.25rem);
 }
 
 .giving-card{
@@ -421,7 +426,7 @@ footer{
     color: hsla(0, 4%, 15%, 0.733);
     font-size: 15px;
     font-weight: 500;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .footer-list h3{
@@ -433,11 +438,14 @@ footer{
      color: hsla(0, 4%, 15%, 0.897);
 }
 
-footer a{
-    text-decoration: none;
+.footer-bottom-link{
     color: hsla(0, 4%, 15%, 0.589);
     font-size: 15px;
-    display: flex;
-    justify-content: center;
-    padding: 50px 0;
+    padding: 40px;
+    text-align: center;
+}
+
+.footer-bottom-link a{
+    text-decoration: none;
+    color: hsla(0, 4%, 15%, 0.589);
 }
